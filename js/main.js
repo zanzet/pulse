@@ -3,8 +3,8 @@ $(document).ready(function(){
         infinite: true,
         speed: 1000,
         adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../img/previes.svg"></button>',
-        nextArrow:'<button type="button" class="slick-next"><img src="../img/next.svg"></button>'
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/previes.svg"></button>',
+        nextArrow:'<button type="button" class="slick-next"><img src="img/next.svg"></button>'
       });
 
       $('ul.tabs').on('click', 'li:not(.tab_active)', function() {
