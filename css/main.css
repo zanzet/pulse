@@ -235,6 +235,11 @@ header{
 
 }
 
+.carusel_img{
+    height: 422px;
+    object-fit: contain;
+}
+
 .slick-prev{
     border: none;
     position: absolute;
